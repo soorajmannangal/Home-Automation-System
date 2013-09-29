@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageView
+            android:id="@+id/imgAllOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/allon1" />
+
+        <ImageView
+            android:id="@+id/imgAllOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/alloff1" />
+
+        <ImageView
+            android:id="@+id/imgRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/refresh2" />
+
+        <ImageView
+            android:id="@+id/imgLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/logout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.07"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageView
+            android:id="@+id/imgDev1"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+             android:layout_weight="50"
+              android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/bulboff" />
+
+        <ImageView
+            android:id="@+id/imgDev2"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+             android:layout_weight="50"
+              android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/bulboff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.13"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageView
+            android:id="@+id/imgDev3"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+             android:layout_weight="50"
+              android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/bulboff" />
+
+        <ImageView
+            android:id="@+id/imgDev4"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+             android:layout_weight="50"
+              android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/bulboff" />
+
+    </LinearLayout>
+
+</LinearLayout>
